@@ -1,0 +1,74 @@
+:root {
+	/* font - size  */
+	--fs-md: 16px;
+
+	/* Background Color */
+	--background-secondary: #eee;
+	--background-white: #fff;
+	--background-primary: #232323;
+
+	/* Color */
+	--text-Color: #333;
+	--text-Color-White: #fff;
+}
+
+body {
+	background-color: var(--background-secondary);
+	color: var(--text-Color);
+	font-size: var(--fs-md);
+	font-family: sans-serif;
+}
+
+/* Header Start */
+
+#wrapper {
+	background-color: var(--background-white);
+	width: 1100px;
+	margin: 20px auto;
+	box-shadow: 1px 6px 10px 4px rgba(230, 223, 223, 0.75);
+	-webkit-box-shadow: 1px 6px 10px 4px rgba(230, 223, 223, 0.75);
+	-moz-box-shadow: 1px 6px 10px 4px rgba(230, 223, 223, 0.75);
+}
+#wrapper header {
+	background-color: var(--background-primary);
+	padding: 20px;
+}
+#wrapper header nav {
+	float: right;
+	margin-top: 50px;
+}
+#wrapper header hgroup {
+	float: left;
+	color: var(--text-Color-White);
+}
+
+#wrapper header nav ul {
+	padding: 0;
+	margin: 0;
+}
+#wrapper header nav ul li {
+	float: left;
+	list-style: none;
+}
+#wrapper header nav ul li a {
+	padding: 15px;
+	color: var(--text-Color-White);
+	text-decoration: none;
+}
+
+/* Header */
+
+.clear {
+	clear: both;
+}
+footer {
+	background-color: var(--background-primary);
+	padding: 20px;
+}
+footer a {
+	color: var(--text-Color-White);
+	text-decoration: none;
+}
+section {
+	padding: 20px;
+}
